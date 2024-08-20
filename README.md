@@ -5,4 +5,4 @@
 
 ### Official Mail ID [gokul.ramesh@uconn.edu]
 
-<img src="/Messi.webp">
+<img src="/Messi.png">
