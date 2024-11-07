@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gokul Ramesh's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Gokul Ramesh</h1>
+    <p>Data Scientist & Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a Data Scientist with a background in software engineering and a passion for data-driven solutions.</p>
+    <p>Currently pursuing my Master’s in Data Science at the University of Connecticut, I bring expertise in statistical analysis, machine learning, and data visualization.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, R, SQL, JavaScript, Angular</li>
+      <li>Data Visualization, Regression Analysis, Hypothesis Testing</li>
+      <li>AWS, Postgres, MySQL, CI/CD</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section with Tabs -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'FrontEndDeveloper')" id="defaultOpen">Front-End Web Developer</button>
+      <button class="tablinks" onclick="openTab(event, 'SystemsEngineer')">Systems Engineer</button>
+      <button class="tablinks" onclick="openTab(event, 'AnalystIntern')">Analyst Intern</button>
+    </div>
+
+    <div id="FrontEndDeveloper" class="tabcontent">
+      <h3>Front-End Web Developer | Infosys, Chennai, India</h3>
+      <p><strong>March 2023 – July 2024</strong></p>
+      <ul>
+        <li>Developed a Pre-Order web application for Toyota's U.S. dealerships, enhancing customer experience for 50+ dealerships.</li>
+        <li>Created custom filtering, tab navigation, and a VIP checkbox feature for prioritizing high-value orders, reducing order processing time by 20%.</li>
+        <li>Architected an event history tab, reducing tracking time by 25%.</li>
+      </ul>
+    </div>
+
+    <div id="SystemsEngineer" class="tabcontent">
+      <h3>Systems Engineer | Infosys, Chennai, India</h3>
+      <p><strong>Jan 2022 – Feb 2023</strong></p>
+      <ul>
+        <li>Designed a Dealer Onboarding Tool with enhanced UI and bulk upload features, reducing data entry time by 80%.</li>
+        <li>Integrated AWS services (API Gateway, Lambda) for scalability, data transmission, and storage in S3.</li>
+        <li>Improved backend integration and monitored CloudWatch logs to enhance reliability and performance.</li>
+      </ul>
+    </div>
+
+    <div id="AnalystIntern" class="tabcontent">
+      <h3>Analyst Intern | Tamilvanan Industries, Tamil Nadu, India</h3>
+      <p><strong>May 2019 – Aug 2019</strong></p>
+      <ul>
+        <li>Collaborated on production line design and quality assurance, implementing predictive maintenance to reduce downtime by 90%.</li>
+        <li>Enhanced product quality through Root Cause Analysis, increasing customer satisfaction.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:gokul.ramesh@uconn.edu">gokul.ramesh@uconn.edu</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gokulramesh00" target="_blank">linkedin.com/in/gokulramesh00</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 Gokul Ramesh | Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
